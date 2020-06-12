@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <SafeAreaView>
-      <StatusBar backgroundColor="red" />
+      <StatusBar backgroundColor="#F2F2E8" barStyle="dark-content" />
       <Animated.View 
         style={[styles.header, 
         { 
